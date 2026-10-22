@@ -13,7 +13,7 @@ jobs:
       - ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-24.04, windows-latest]
         python-version: ["3.9", "3.14"] # oldest supported and latest tested
     env:
       codegen-python-version: "3.9"

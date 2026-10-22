@@ -5,7 +5,7 @@ on:
     branches:
       - master
       - 'releases/**'
-    types: [opened, synchronize, reopened, edited, labeled, unlabeled]
+    types: [opened, synchronize, reopened, labeled, unlabeled]
   workflow_call:
   workflow_dispatch:
 
